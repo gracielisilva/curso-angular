@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  texto = 'A vida é Linda';
+  palavra = 'CARRO';
+  favotitaColor = 'green';
   constructor(){}
+
+  eventoRecebido($event) {
+    console.log('AppComponent: EVENTO RECEBIDO!', $event);
+  }
+  
 }
