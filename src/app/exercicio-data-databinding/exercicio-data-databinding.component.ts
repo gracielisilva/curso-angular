@@ -18,6 +18,7 @@ export class ExercicioDataDatabindingComponent implements OnInit {
 
   valorDoInput ='';
   
+  valorContador = 10;
   
   constructor() { 
     setTimeout(() => {
@@ -47,8 +48,5 @@ export class ExercicioDataDatabindingComponent implements OnInit {
     console.log('Devo emitir informações para o componente PAI.');
     this.clicado.emit($event);
   }
-
-  onValorAtualizadoNoContador(novoValor){
-    console.log('onValorAtualizadoNoContador: ',novoValor);
-  }
+ 
 }
