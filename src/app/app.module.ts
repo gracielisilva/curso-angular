@@ -5,7 +5,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ExtratoComponent } from './extrato/extrato.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { NaoEncontradoComponent } from './nao-encontrado/nao-encontrado.component';
 import { EerciciosDiretivasComponent } from './shared/components/eercicios-diretivas/eercicios-diretivas.component';
 import { ExercicioContadorComponent } from './shared/components/exercicio-contador/exercicio-contador.component';
 import {
@@ -29,6 +32,9 @@ registerLocaleData(localePt, 'pt');
     EerciciosDiretivasComponent,
     ExercicioNgclassComponent,
     ExercicioPipesComponent,
+    ExtratoComponent,
+    LoginComponent,
+    NaoEncontradoComponent,
   ],
   imports: [
     BrowserModule,

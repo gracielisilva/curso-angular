@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EerciciosDiretivasComponent } from './eercicios-diretivas.component';
+import { NaoEncontradoComponent } from './nao-encontrado.component';
 
-describe('EerciciosDiretivasComponent', () => {
-  let component: EerciciosDiretivasComponent;
-  let fixture: ComponentFixture<EerciciosDiretivasComponent>;
+describe('NaoEncontradoComponent', () => {
+  let component: NaoEncontradoComponent;
+  let fixture: ComponentFixture<NaoEncontradoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EerciciosDiretivasComponent ]
+      declarations: [ NaoEncontradoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EerciciosDiretivasComponent);
+    fixture = TestBed.createComponent(NaoEncontradoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
